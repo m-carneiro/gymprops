@@ -1,4 +1,4 @@
-FROM openjdk:latest
+FROM openjdk:21-ea-9-jdk-slim
 EXPOSE 7777
 WORKDIR /app
 RUN mkdir -p /app/
